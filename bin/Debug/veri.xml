@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="veri">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Malzeme" type="xs:string" minOccurs="0" />
+                <xs:element name="Tip_x002F_Özellik" type="xs:string" minOccurs="0" />
+                <xs:element name="Miktar" type="xs:string" minOccurs="0" />
+                <xs:element name="Teslim_x0020_Alan" type="xs:string" minOccurs="0" />
+                <xs:element name="Teslim_x0020_Eden" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <veri>
+    <Malzeme>aaaa</Malzeme>
+    <Tip_x002F_Özellik>aaaa</Tip_x002F_Özellik>
+    <Miktar>111</Miktar>
+    <Teslim_x0020_Alan>aaa</Teslim_x0020_Alan>
+    <Teslim_x0020_Eden>aaaa</Teslim_x0020_Eden>
+  </veri>
+  <veri>
+    <Malzeme>bbb</Malzeme>
+    <Tip_x002F_Özellik>bbbb</Tip_x002F_Özellik>
+    <Miktar>222</Miktar>
+    <Teslim_x0020_Alan>bbbb</Teslim_x0020_Alan>
+    <Teslim_x0020_Eden>bbbb</Teslim_x0020_Eden>
+  </veri>
+  <veri>
+    <Malzeme>cccc</Malzeme>
+    <Tip_x002F_Özellik>cccc</Tip_x002F_Özellik>
+    <Miktar>3333</Miktar>
+    <Teslim_x0020_Alan>cccc</Teslim_x0020_Alan>
+    <Teslim_x0020_Eden>cccc</Teslim_x0020_Eden>
+  </veri>
+  <veri>
+    <Malzeme>ddd</Malzeme>
+    <Tip_x002F_Özellik>dddd</Tip_x002F_Özellik>
+    <Miktar>4444</Miktar>
+    <Teslim_x0020_Alan>ddd</Teslim_x0020_Alan>
+    <Teslim_x0020_Eden>dddd</Teslim_x0020_Eden>
+  </veri>
+  <veri>
+    <Malzeme>eee</Malzeme>
+    <Tip_x002F_Özellik>eee</Tip_x002F_Özellik>
+    <Miktar>5555</Miktar>
+    <Teslim_x0020_Alan>eeee</Teslim_x0020_Alan>
+    <Teslim_x0020_Eden>eeee</Teslim_x0020_Eden>
+  </veri>
+</NewDataSet>
