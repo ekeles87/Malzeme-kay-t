@@ -191,7 +191,9 @@ namespace WindowsFormsApplication2
                     DataRow dr = drv.Row;
 
                     dr.Delete();
+                    ds.WriteXml(Application.StartupPath + "//" + "veri.xml", XmlWriteMode.WriteSchema);
                 }
+            
             }
         }
     }
