@@ -43,34 +43,40 @@ namespace WindowsFormsApplication2
                 this.TeslimEdenTxt.Text = this.duzen.teslimEden;
 
             }
+         
         }
 
         private void KaydetBtn_Click(object sender, EventArgs e)
         {
-            DüzenleFrm dfrm = this;
+            
+            
+                    DüzenleFrm dfrm = this;
 
-            this.duzen.adi = MalzemeTxt.Text;
-            this.duzen.ozellik = TipTxt.Text;
+                    this.duzen.adi = MalzemeTxt.Text;
+                    this.duzen.ozellik = TipTxt.Text;
 
-            int result = 0;
-            if (int.TryParse(dfrm.MiktarTxt.Text, out result))
+                    int result = 0;
+                    if (int.TryParse(dfrm.MiktarTxt.Text, out result))
 
-            {
+                    {
 
-                this.duzen.miktar = result;
-                result.ToString();
-            }
+                        this.duzen.miktar = result;
+                        //result.ToString();
+                    }
 
-            this.duzen.teslimAlan = TeslimAlanTxt.Text;
-            this.duzen.teslimEden = TeslimEdenTxt.Text;
+                    this.duzen.teslimAlan = TeslimAlanTxt.Text;
+                    this.duzen.teslimEden = TeslimEdenTxt.Text;
 
-            this.DialogResult = System.Windows.Forms.DialogResult.OK;
+                   
 
-            ds.WriteXml(Application.StartupPath + "//" + "veri.xml", XmlWriteMode.WriteSchema);
+                    this.DialogResult = System.Windows.Forms.DialogResult.OK;
+
+            //ds.WriteXml(Application.StartupPath + "//" + "veri.xml", XmlWriteMode.WriteSchema);
+
+            //this.Tiklandi = 1;
+
+
         }
-
-
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.DialogResult = System.Windows.Forms.DialogResult.Cancel;

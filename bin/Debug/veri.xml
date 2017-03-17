@@ -20,8 +20,8 @@
     </xs:element>
   </xs:schema>
   <veri>
-    <Malzeme>aaaa</Malzeme>
-    <Tip_x002F_Özellik>aaaa</Tip_x002F_Özellik>
+    <Malzeme>aaa</Malzeme>
+    <Tip_x002F_Özellik>aaa</Tip_x002F_Özellik>
     <Miktar>111</Miktar>
     <Teslim_x0020_Alan>aaa</Teslim_x0020_Alan>
     <Teslim_x0020_Eden>aaaa</Teslim_x0020_Eden>
@@ -29,29 +29,29 @@
   <veri>
     <Malzeme>bbb</Malzeme>
     <Tip_x002F_Özellik>bbbb</Tip_x002F_Özellik>
-    <Miktar>222</Miktar>
-    <Teslim_x0020_Alan>bbbb</Teslim_x0020_Alan>
+    <Miktar>2222</Miktar>
+    <Teslim_x0020_Alan>bbb</Teslim_x0020_Alan>
     <Teslim_x0020_Eden>bbbb</Teslim_x0020_Eden>
   </veri>
   <veri>
-    <Malzeme>cccc</Malzeme>
+    <Malzeme>ccc</Malzeme>
     <Tip_x002F_Özellik>cccc</Tip_x002F_Özellik>
-    <Miktar>3333</Miktar>
-    <Teslim_x0020_Alan>cccc</Teslim_x0020_Alan>
+    <Miktar>333</Miktar>
+    <Teslim_x0020_Alan>ccc</Teslim_x0020_Alan>
     <Teslim_x0020_Eden>cccc</Teslim_x0020_Eden>
   </veri>
   <veri>
     <Malzeme>ddd</Malzeme>
-    <Tip_x002F_Özellik>dddd</Tip_x002F_Özellik>
-    <Miktar>4444</Miktar>
+    <Tip_x002F_Özellik>ddd</Tip_x002F_Özellik>
+    <Miktar>555</Miktar>
     <Teslim_x0020_Alan>ddd</Teslim_x0020_Alan>
-    <Teslim_x0020_Eden>dddd</Teslim_x0020_Eden>
+    <Teslim_x0020_Eden>ddd</Teslim_x0020_Eden>
   </veri>
   <veri>
-    <Malzeme>eee</Malzeme>
-    <Tip_x002F_Özellik>eee</Tip_x002F_Özellik>
-    <Miktar>5555</Miktar>
-    <Teslim_x0020_Alan>eeee</Teslim_x0020_Alan>
-    <Teslim_x0020_Eden>eeee</Teslim_x0020_Eden>
+    <Malzeme>sertaç</Malzeme>
+    <Tip_x002F_Özellik>biolog</Tip_x002F_Özellik>
+    <Miktar>1</Miktar>
+    <Teslim_x0020_Alan>emre</Teslim_x0020_Alan>
+    <Teslim_x0020_Eden>kendi</Teslim_x0020_Eden>
   </veri>
 </NewDataSet>

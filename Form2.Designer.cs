@@ -193,7 +193,7 @@
             this.KaydetBtn.Name = "KaydetBtn";
             this.KaydetBtn.Size = new System.Drawing.Size(190, 39);
             this.KaydetBtn.TabIndex = 15;
-            this.KaydetBtn.Text = "Kaydet";
+            this.KaydetBtn.Text = "Onayla";
             this.KaydetBtn.UseVisualStyleBackColor = true;
             this.KaydetBtn.Click += new System.EventHandler(this.KaydetBtn_Click);
             // 

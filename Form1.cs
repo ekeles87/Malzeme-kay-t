@@ -17,7 +17,8 @@ namespace WindowsFormsApplication2
         public Malzeme yenikayit { get; set; }
 
         private DataSet ds = new DataSet();
-     
+
+        public static int Tiklandi = 0;
 
         private void DepoKayıtFrm_Load(object sender, EventArgs e)
         {
@@ -49,7 +50,7 @@ namespace WindowsFormsApplication2
                 ds.Tables.Add(dt);
                 this.dataGridView1.DataSource = dt;
             }
-          
+
 
 
 
@@ -65,10 +66,10 @@ namespace WindowsFormsApplication2
 
             //    //dt.WriteXml(Application.StartupPath + "//" + "veri.xml", XmlWriteMode.WriteSchema);
             //    //}
-
+           
         }
 
-
+       
         public DepoKayıtFrm()
         {
             InitializeComponent();
@@ -165,13 +166,33 @@ namespace WindowsFormsApplication2
                 ds.WriteXml(Application.StartupPath + "//" + "veri.xml", XmlWriteMode.WriteSchema);
                 this.kayitsayisi();
                 }
+                else /*if (this.Tiklandi = 1)*/
+                {
+                    ds.WriteXml(Application.StartupPath + "//" + "veri.xml", XmlWriteMode.WriteSchema);
+                }
             }
+
 
         }
         private void kayitsayisi()
         {
             this.toolStripStatusLabel1.Text = "Kayıt Sayısı :" + this.dataGridView1.RowCount.ToString();
 
+        }
+
+        private void silbtn_Click(object sender, EventArgs e)
+        {
+            if(dataGridView1.CurrentRow != null)
+            {
+                DialogResult sonuc = MessageBox.Show("Silmak İstediğinize Emin misiniz?", "Silme İşlemi", MessageBoxButtons.YesNo);
+                if(sonuc==System.Windows.Forms.DialogResult.Yes)
+                {
+                    DataRowView drv = this.dataGridView1.CurrentRow.DataBoundItem as DataRowView;
+                    DataRow dr = drv.Row;
+
+                    dr.Delete();
+                }
+            }
         }
     }
 }

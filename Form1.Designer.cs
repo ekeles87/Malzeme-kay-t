@@ -62,6 +62,7 @@
             this.DüzenleBtn = new System.Windows.Forms.Button();
             this.KaydetBtn = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.silbtn = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -370,11 +371,23 @@
             this.dataGridView1.Size = new System.Drawing.Size(972, 268);
             this.dataGridView1.TabIndex = 15;
             // 
+            // silbtn
+            // 
+            this.silbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.silbtn.Location = new System.Drawing.Point(463, 131);
+            this.silbtn.Name = "silbtn";
+            this.silbtn.Size = new System.Drawing.Size(90, 39);
+            this.silbtn.TabIndex = 16;
+            this.silbtn.Text = "Sil";
+            this.silbtn.UseVisualStyleBackColor = true;
+            this.silbtn.Click += new System.EventHandler(this.silbtn_Click);
+            // 
             // DepoKayıtFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(974, 477);
+            this.Controls.Add(this.silbtn);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.KaydetBtn);
             this.Controls.Add(this.DüzenleBtn);
@@ -445,6 +458,7 @@
         private System.Windows.Forms.Button DüzenleBtn;
         private System.Windows.Forms.Button KaydetBtn;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button silbtn;
     }
 }
 
