@@ -139,7 +139,7 @@ namespace WindowsFormsApplication2
                 {
 
                     yenikayit.miktar = result;
-                    result.ToString();
+                   
                 }
 
                 yenikayit.ozellik = dfrm.TipTxt.Text;

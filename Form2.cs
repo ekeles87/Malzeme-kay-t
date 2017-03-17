@@ -61,7 +61,7 @@ namespace WindowsFormsApplication2
                     {
 
                         this.duzen.miktar = result;
-                        //result.ToString();
+                        
                     }
 
                     this.duzen.teslimAlan = TeslimAlanTxt.Text;
